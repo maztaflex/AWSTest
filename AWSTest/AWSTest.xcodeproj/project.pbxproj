@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247806005000CEE08F48C530 /* libPods-AWSTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */; };
+		AC9CB64B1E263035002AFD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB64A1E263035002AFD1E /* main.m */; };
+		AC9CB64E1E263035002AFD1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB64D1E263035002AFD1E /* AppDelegate.m */; };
+		AC9CB6511E263035002AFD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB6501E263035002AFD1E /* ViewController.m */; };
+		AC9CB6541E263035002AFD1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9CB6521E263035002AFD1E /* Main.storyboard */; };
+		AC9CB6561E263035002AFD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9CB6551E263035002AFD1E /* Assets.xcassets */; };
+		AC9CB6591E263035002AFD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9CB6571E263035002AFD1E /* LaunchScreen.storyboard */; };
+		AC9CB6641E263036002AFD1E /* AWSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB6631E263036002AFD1E /* AWSTestTests.m */; };
+		AC9CB66F1E263036002AFD1E /* AWSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB66E1E263036002AFD1E /* AWSTestUITests.m */; };
+		C231828B8EC2DD37B15E5731 /* libPods-AWSTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */; };
+		E285DB0063D0670D2CEAF97F /* libPods-AWSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9CB6601E263036002AFD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9CB63E1E263035002AFD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9CB6451E263035002AFD1E;
+			remoteInfo = AWSTest;
+		};
+		AC9CB66B1E263036002AFD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9CB63E1E263035002AFD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9CB6451E263035002AFD1E;
+			remoteInfo = AWSTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E4BA66E27C8ACB5F8228890 /* Pods-AWSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest.debug.xcconfig"; sourceTree = "<group>"; };
+		42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C4099C6637E717D212198AD /* Pods-AWSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest.release.xcconfig"; sourceTree = "<group>"; };
+		919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC9CB6461E263035002AFD1E /* AWSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CB64A1E263035002AFD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9CB64C1E263035002AFD1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC9CB64D1E263035002AFD1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC9CB64F1E263035002AFD1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC9CB6501E263035002AFD1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC9CB6531E263035002AFD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9CB6551E263035002AFD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9CB6581E263035002AFD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9CB65A1E263035002AFD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9CB65F1E263036002AFD1E /* AWSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CB6631E263036002AFD1E /* AWSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSTestTests.m; sourceTree = "<group>"; };
+		AC9CB6651E263036002AFD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9CB66A1E263036002AFD1E /* AWSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CB66E1E263036002AFD1E /* AWSTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSTestUITests.m; sourceTree = "<group>"; };
+		AC9CB6701E263036002AFD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9CB6431E263035002AFD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E285DB0063D0670D2CEAF97F /* libPods-AWSTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB65C1E263036002AFD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247806005000CEE08F48C530 /* libPods-AWSTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB6671E263036002AFD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C231828B8EC2DD37B15E5731 /* libPods-AWSTestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F80E6F6549C9F119E676D49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E4BA66E27C8ACB5F8228890 /* Pods-AWSTest.debug.xcconfig */,
+				7C4099C6637E717D212198AD /* Pods-AWSTest.release.xcconfig */,
+				F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */,
+				ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */,
+				95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */,
+				42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC9CB63D1E263035002AFD1E = {
+			isa = PBXGroup;
+			children = (
+				AC9CB6481E263035002AFD1E /* AWSTest */,
+				AC9CB6621E263036002AFD1E /* AWSTestTests */,
+				AC9CB66D1E263036002AFD1E /* AWSTestUITests */,
+				AC9CB6471E263035002AFD1E /* Products */,
+				9F80E6F6549C9F119E676D49 /* Pods */,
+				E303060091FBDD513AACF7B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9CB6471E263035002AFD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CB6461E263035002AFD1E /* AWSTest.app */,
+				AC9CB65F1E263036002AFD1E /* AWSTestTests.xctest */,
+				AC9CB66A1E263036002AFD1E /* AWSTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9CB6481E263035002AFD1E /* AWSTest */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CB64C1E263035002AFD1E /* AppDelegate.h */,
+				AC9CB64D1E263035002AFD1E /* AppDelegate.m */,
+				AC9CB64F1E263035002AFD1E /* ViewController.h */,
+				AC9CB6501E263035002AFD1E /* ViewController.m */,
+				AC9CB6521E263035002AFD1E /* Main.storyboard */,
+				AC9CB6551E263035002AFD1E /* Assets.xcassets */,
+				AC9CB6571E263035002AFD1E /* LaunchScreen.storyboard */,
+				AC9CB65A1E263035002AFD1E /* Info.plist */,
+				AC9CB6491E263035002AFD1E /* Supporting Files */,
+			);
+			path = AWSTest;
+			sourceTree = "<group>";
+		};
+		AC9CB6491E263035002AFD1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CB64A1E263035002AFD1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9CB6621E263036002AFD1E /* AWSTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CB6631E263036002AFD1E /* AWSTestTests.m */,
+				AC9CB6651E263036002AFD1E /* Info.plist */,
+			);
+			path = AWSTestTests;
+			sourceTree = "<group>";
+		};
+		AC9CB66D1E263036002AFD1E /* AWSTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CB66E1E263036002AFD1E /* AWSTestUITests.m */,
+				AC9CB6701E263036002AFD1E /* Info.plist */,
+			);
+			path = AWSTestUITests;
+			sourceTree = "<group>";
+		};
+		E303060091FBDD513AACF7B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */,
+				919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */,
+				C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9CB6451E263035002AFD1E /* AWSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CB6731E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTest" */;
+			buildPhases = (
+				B40FC7FBC95B0606786FC27A /* [CP] Check Pods Manifest.lock */,
+				AC9CB6421E263035002AFD1E /* Sources */,
+				AC9CB6431E263035002AFD1E /* Frameworks */,
+				AC9CB6441E263035002AFD1E /* Resources */,
+				9A95770ECF81EE68943226BC /* [CP] Embed Pods Frameworks */,
+				029E91B5987150A30054BBB2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWSTest;
+			productName = AWSTest;
+			productReference = AC9CB6461E263035002AFD1E /* AWSTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9CB65E1E263036002AFD1E /* AWSTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CB6761E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestTests" */;
+			buildPhases = (
+				43F07BE8E44B1E521D6717F9 /* [CP] Check Pods Manifest.lock */,
+				AC9CB65B1E263036002AFD1E /* Sources */,
+				AC9CB65C1E263036002AFD1E /* Frameworks */,
+				AC9CB65D1E263036002AFD1E /* Resources */,
+				FB2F5148CC47DB3E7DC82E0C /* [CP] Embed Pods Frameworks */,
+				BF0A803844C64AF84670B3FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9CB6611E263036002AFD1E /* PBXTargetDependency */,
+			);
+			name = AWSTestTests;
+			productName = AWSTestTests;
+			productReference = AC9CB65F1E263036002AFD1E /* AWSTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC9CB6691E263036002AFD1E /* AWSTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CB6791E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestUITests" */;
+			buildPhases = (
+				E660A68A9C0706E457C61017 /* [CP] Check Pods Manifest.lock */,
+				AC9CB6661E263036002AFD1E /* Sources */,
+				AC9CB6671E263036002AFD1E /* Frameworks */,
+				AC9CB6681E263036002AFD1E /* Resources */,
+				B49D197A90845AD92A846A30 /* [CP] Embed Pods Frameworks */,
+				F9770059A8EA9830D2CA59FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9CB66C1E263036002AFD1E /* PBXTargetDependency */,
+			);
+			name = AWSTestUITests;
+			productName = AWSTestUITests;
+			productReference = AC9CB66A1E263036002AFD1E /* AWSTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9CB63E1E263035002AFD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "S.M Entertainment";
+				TargetAttributes = {
+					AC9CB6451E263035002AFD1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A87J69XM38;
+						ProvisioningStyle = Automatic;
+					};
+					AC9CB65E1E263036002AFD1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A87J69XM38;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC9CB6451E263035002AFD1E;
+					};
+					AC9CB6691E263036002AFD1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A87J69XM38;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC9CB6451E263035002AFD1E;
+					};
+				};
+			};
+			buildConfigurationList = AC9CB6411E263035002AFD1E /* Build configuration list for PBXProject "AWSTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9CB63D1E263035002AFD1E;
+			productRefGroup = AC9CB6471E263035002AFD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9CB6451E263035002AFD1E /* AWSTest */,
+				AC9CB65E1E263036002AFD1E /* AWSTestTests */,
+				AC9CB6691E263036002AFD1E /* AWSTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9CB6441E263035002AFD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CB6591E263035002AFD1E /* LaunchScreen.storyboard in Resources */,
+				AC9CB6561E263035002AFD1E /* Assets.xcassets in Resources */,
+				AC9CB6541E263035002AFD1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB65D1E263036002AFD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB6681E263036002AFD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		029E91B5987150A30054BBB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F07BE8E44B1E521D6717F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A95770ECF81EE68943226BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B40FC7FBC95B0606786FC27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B49D197A90845AD92A846A30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0A803844C64AF84670B3FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E660A68A9C0706E457C61017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9770059A8EA9830D2CA59FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2F5148CC47DB3E7DC82E0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9CB6421E263035002AFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CB6511E263035002AFD1E /* ViewController.m in Sources */,
+				AC9CB64E1E263035002AFD1E /* AppDelegate.m in Sources */,
+				AC9CB64B1E263035002AFD1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB65B1E263036002AFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CB6641E263036002AFD1E /* AWSTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CB6661E263036002AFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CB66F1E263036002AFD1E /* AWSTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9CB6611E263036002AFD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9CB6451E263035002AFD1E /* AWSTest */;
+			targetProxy = AC9CB6601E263036002AFD1E /* PBXContainerItemProxy */;
+		};
+		AC9CB66C1E263036002AFD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9CB6451E263035002AFD1E /* AWSTest */;
+			targetProxy = AC9CB66B1E263036002AFD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9CB6521E263035002AFD1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9CB6531E263035002AFD1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9CB6571E263035002AFD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9CB6581E263035002AFD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9CB6711E263036002AFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC9CB6721E263036002AFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9CB6741E263036002AFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4BA66E27C8ACB5F8228890 /* Pods-AWSTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9CB6751E263036002AFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C4099C6637E717D212198AD /* Pods-AWSTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC9CB6771E263036002AFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSTest.app/AWSTest";
+			};
+			name = Debug;
+		};
+		AC9CB6781E263036002AFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWSTest.app/AWSTest";
+			};
+			name = Release;
+		};
+		AC9CB67A1E263036002AFD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AWSTest;
+			};
+			name = Debug;
+		};
+		AC9CB67B1E263036002AFD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A87J69XM38;
+				INFOPLIST_FILE = AWSTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smtown.AWSTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AWSTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9CB6411E263035002AFD1E /* Build configuration list for PBXProject "AWSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CB6711E263036002AFD1E /* Debug */,
+				AC9CB6721E263036002AFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9CB6731E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CB6741E263036002AFD1E /* Debug */,
+				AC9CB6751E263036002AFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC9CB6761E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CB6771E263036002AFD1E /* Debug */,
+				AC9CB6781E263036002AFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC9CB6791E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CB67A1E263036002AFD1E /* Debug */,
+				AC9CB67B1E263036002AFD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9CB63E1E263035002AFD1E /* Project object */;
+}
