@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		247806005000CEE08F48C530 /* libPods-AWSTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */; };
 		AC9CB64B1E263035002AFD1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB64A1E263035002AFD1E /* main.m */; };
 		AC9CB64E1E263035002AFD1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB64D1E263035002AFD1E /* AppDelegate.m */; };
 		AC9CB6511E263035002AFD1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB6501E263035002AFD1E /* ViewController.m */; };
@@ -16,8 +15,7 @@
 		AC9CB6591E263035002AFD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9CB6571E263035002AFD1E /* LaunchScreen.storyboard */; };
 		AC9CB6641E263036002AFD1E /* AWSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB6631E263036002AFD1E /* AWSTestTests.m */; };
 		AC9CB66F1E263036002AFD1E /* AWSTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CB66E1E263036002AFD1E /* AWSTestUITests.m */; };
-		C231828B8EC2DD37B15E5731 /* libPods-AWSTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */; };
-		E285DB0063D0670D2CEAF97F /* libPods-AWSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */; };
+		AD15177F3E843A05B332EC47 /* libPods-AWSTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B01C2FA1CDB4E84A5DA18F4E /* libPods-AWSTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +37,9 @@
 
 /* Begin PBXFileReference section */
 		1E4BA66E27C8ACB5F8228890 /* Pods-AWSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest.debug.xcconfig"; sourceTree = "<group>"; };
-		42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		513056C5743714B459A0E6C3 /* libPods-AWSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4099C6637E717D212198AD /* Pods-AWSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest.release.xcconfig"; sourceTree = "<group>"; };
-		919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97F09E179937657A577B10E5 /* libPods-AWSTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9CB6461E263035002AFD1E /* AWSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9CB64A1E263035002AFD1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC9CB64C1E263035002AFD1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,10 +56,7 @@
 		AC9CB66A1E263036002AFD1E /* AWSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9CB66E1E263036002AFD1E /* AWSTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWSTestUITests.m; sourceTree = "<group>"; };
 		AC9CB6701E263036002AFD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B01C2FA1CDB4E84A5DA18F4E /* libPods-AWSTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E285DB0063D0670D2CEAF97F /* libPods-AWSTest.a in Frameworks */,
+				AD15177F3E843A05B332EC47 /* libPods-AWSTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				247806005000CEE08F48C530 /* libPods-AWSTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C231828B8EC2DD37B15E5731 /* libPods-AWSTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +90,6 @@
 			children = (
 				1E4BA66E27C8ACB5F8228890 /* Pods-AWSTest.debug.xcconfig */,
 				7C4099C6637E717D212198AD /* Pods-AWSTest.release.xcconfig */,
-				F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */,
-				ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */,
-				95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */,
-				42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -173,9 +161,9 @@
 		E303060091FBDD513AACF7B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAA70D7CF2BCBED6F5671F11 /* libPods-AWSTest.a */,
-				919E5930C53D249B84564DDA /* libPods-AWSTestTests.a */,
-				C13946801D9872BB7A9172FE /* libPods-AWSTestUITests.a */,
+				B01C2FA1CDB4E84A5DA18F4E /* libPods-AWSTest.a */,
+				513056C5743714B459A0E6C3 /* libPods-AWSTestTests.a */,
+				97F09E179937657A577B10E5 /* libPods-AWSTestUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,12 +195,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9CB6761E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestTests" */;
 			buildPhases = (
-				43F07BE8E44B1E521D6717F9 /* [CP] Check Pods Manifest.lock */,
 				AC9CB65B1E263036002AFD1E /* Sources */,
 				AC9CB65C1E263036002AFD1E /* Frameworks */,
 				AC9CB65D1E263036002AFD1E /* Resources */,
-				FB2F5148CC47DB3E7DC82E0C /* [CP] Embed Pods Frameworks */,
-				BF0A803844C64AF84670B3FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,12 +213,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9CB6791E263036002AFD1E /* Build configuration list for PBXNativeTarget "AWSTestUITests" */;
 			buildPhases = (
-				E660A68A9C0706E457C61017 /* [CP] Check Pods Manifest.lock */,
 				AC9CB6661E263036002AFD1E /* Sources */,
 				AC9CB6671E263036002AFD1E /* Frameworks */,
 				AC9CB6681E263036002AFD1E /* Resources */,
-				B49D197A90845AD92A846A30 /* [CP] Embed Pods Frameworks */,
-				F9770059A8EA9830D2CA59FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,21 +318,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTest/Pods-AWSTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		43F07BE8E44B1E521D6717F9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		9A95770ECF81EE68943226BC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,81 +346,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B49D197A90845AD92A846A30 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF0A803844C64AF84670B3FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E660A68A9C0706E457C61017 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F9770059A8EA9830D2CA59FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestUITests/Pods-AWSTestUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FB2F5148CC47DB3E7DC82E0C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSTestTests/Pods-AWSTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -636,7 +528,6 @@
 		};
 		AC9CB6771E263036002AFD1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F56DBB6F98E36D5348C74E24 /* Pods-AWSTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = A87J69XM38;
@@ -650,7 +541,6 @@
 		};
 		AC9CB6781E263036002AFD1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED40C891E0BC179EEA48B35D /* Pods-AWSTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = A87J69XM38;
@@ -664,7 +554,6 @@
 		};
 		AC9CB67A1E263036002AFD1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95B1164103586F8119260F45 /* Pods-AWSTestUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = AWSTestUITests/Info.plist;
@@ -677,7 +566,6 @@
 		};
 		AC9CB67B1E263036002AFD1E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42EC6056AD644EA9DC5B373A /* Pods-AWSTestUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = A87J69XM38;
 				INFOPLIST_FILE = AWSTestUITests/Info.plist;
