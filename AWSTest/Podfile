@@ -20,5 +20,6 @@ pod 'AWSSES'
 pod 'AWSSimpleDB'
 pod 'AWSSNS'
 pod 'AWSSQS'
+pod 'AWSLex'
 
 end
